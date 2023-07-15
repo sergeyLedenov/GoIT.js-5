@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>1</h1>
+    <button class="button" data-action="open-modal">Open modal</button>
+
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <h2>Modal window</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quas ducimus, dolorum in doloribus commodi fugiat. Quos delectus quibusdam aliquid quaerat, impedit placeat, expedita dicta ab sed deserunt sequi soluta reiciendis asperiores? In, quidem quam! Ullam tempora sed quod aliquid consequuntur iste nemo corrupti, cupiditate at, facere sit. Tempore fugit optio nostrum. Error possimus aut nesciunt sapiente a sequi ipsam ex ipsa cum, illo odio. Quo, totam enim autem minima dignissimos necessitatibus soluta ex sapiente.</p>
+            <button type="button" class="button" data-action="close-modal">Close</button>
+        </div>
+    </div>
+
+    <h1>2</h1>
+    <div>
+        <label>red <input name="color" class="red" type="radio"></label> 
+        <label>green<input name="color" class="green" type="radio"></label> 
+        <label>blue<input name="color" class="blue" type="radio"></label>
+    </div>
+
+    <h1>3</h1>
+    <div>
+        <label>Enter your name --> <input placeholder="Your name" type="text" name="name" id="name"></label>
+        <p>Hi, <span class="res">user</span>!</p>
+    </div>
+
+    <h1>3.5</h1>
+    <div>
+        <label>Enter text, with max length 6 --> <input type="text" data-length="6" placeholder="Enter Text" name="text" id="text"></label>
+    </div>
+
+    <h1>4</h1>
+    <div>
+        <label><input type="range" name="range" id="sizeInp"> <span class="size">50</span></label>
+        <p class="sizeTxt">Text</p>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
